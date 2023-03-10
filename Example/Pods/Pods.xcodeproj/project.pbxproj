@@ -39,7 +39,7 @@
 
 /* Begin PBXFileReference section */
 		03DB814D6051E55CD548256B8863D668 /* Pods-JLTools_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JLTools_Example.modulemap"; sourceTree = "<group>"; };
-		14783C183592A50B7D4EFCAA704E2D54 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		14783C183592A50B7D4EFCAA704E2D54 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		20CF79C5CD03D142B8FE74D00A83DBEF /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = JLTools/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		2DACDC9278EB19E6A8DB0514F24F3F52 /* Pods-JLTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		418353366FAECFC8F2255D57E1018FF5 /* JLTools */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JLTools; path = JLTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,12 +53,12 @@
 		81E1BB96463D04FF723C34DEF1099F5B /* Pods-JLTools_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JLTools_Tests.modulemap"; sourceTree = "<group>"; };
 		83358AC14ED7962C2E03AB64CDA8F841 /* JLTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JLTools.debug.xcconfig; sourceTree = "<group>"; };
 		84536ECE9296025AB5455A068057D491 /* Pods-JLTools_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JLTools_Tests-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A3ECA5EBD8F9F462B1DFDB2E47EAAD49 /* JLTools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JLTools-Info.plist"; sourceTree = "<group>"; };
 		A5640BA6A2043E5585CB2149EED776E6 /* Pods-JLTools_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JLTools_Example-Info.plist"; sourceTree = "<group>"; };
 		A5E587C7FD33BAF292F43F0BD20348D1 /* Pods-JLTools_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JLTools_Tests-umbrella.h"; sourceTree = "<group>"; };
 		AA423BC200699D9F75B6278AEAA0896F /* JLTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLTools-umbrella.h"; sourceTree = "<group>"; };
-		AE68708376D560F7522A5315F96FEB90 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AE68708376D560F7522A5315F96FEB90 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		C77F493B91E40A15272931039BA92F9D /* Pods-JLTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D42543DB18F82F465CFDFAC3D5D407F3 /* Pods-JLTools_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JLTools_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DC6EF6577F90DAEBADFE1B6A21AF2BC7 /* Pods-JLTools_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JLTools_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -68,7 +68,7 @@
 		EACF16CFAFC5CE6C94EBC3F312EBB43D /* JLTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JLTools-dummy.m"; sourceTree = "<group>"; };
 		EB6C4D4290261EE82D5BCB4CB806DFB0 /* Pods-JLTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLTools_Example.release.xcconfig"; sourceTree = "<group>"; };
 		EE3F85E576B959E66E1112231D93D82F /* JLTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLTools-prefix.pch"; sourceTree = "<group>"; };
-		EFF3271DD9D7E2237EB65AEA1818EA58 /* JLTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JLTools.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		EFF3271DD9D7E2237EB65AEA1818EA58 /* JLTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JLTools.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F135E1A07D412E96398980CEF65861A1 /* Pods-JLTools_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JLTools_Tests"; path = Pods_JLTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3F46EFDC4BF58DDD151D38FAAFF2E3D /* Pods-JLTools_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JLTools_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		FEAD1C0248D21466F895148F228590A7 /* JLTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JLTools.release.xcconfig; sourceTree = "<group>"; };
@@ -563,7 +563,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

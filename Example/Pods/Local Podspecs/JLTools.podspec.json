@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of JLTools.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Jack/JLTools",
+  "homepage": "https://github.com/jackjiang/JLTools",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "Jack": "jiangleideyouxiang@163.com"
   },
   "source": {
-    "git": "https://github.com/Jack/JLTools.git",
+    "git": "https://github.com/jackjiang/JLTools.git",
     "tag": "0.1.0"
   },
   "platforms": {
