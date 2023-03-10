@@ -12,14 +12,6 @@ private typealias ToObjectValueExtension = String
 extension ToObjectValueExtension {
   
   public func toObject() -> Any? {
-    guard self.isNotBlank else {
-      return nil
-    }
-    
-    if let data = self.data(using: .utf8),
-       let object = try? JSONSerialization.jsonObject(with: data, options: .mutableContainers) {
-      return object
-    }
     
     return nil
   }
