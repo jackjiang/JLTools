@@ -1,0 +1,6 @@
+framework module JLTools {
+  umbrella header "JLTools-umbrella.h"
+
+  export *
+  module * { export * }
+}

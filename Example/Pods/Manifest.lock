@@ -1,0 +1,16 @@
+PODS:
+  - JLTools (0.1.0)
+
+DEPENDENCIES:
+  - JLTools (from `../`)
+
+EXTERNAL SOURCES:
+  JLTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JLTools: 2c133491040d48bddcce2d3cc6f6f5b5643fe917
+
+PODFILE CHECKSUM: 8ef77bbcc3a34985048c1ad772c9ae8c0539791d
+
+COCOAPODS: 1.11.3
