@@ -1,7 +1,7 @@
 use_frameworks!
 
 platform :ios, '10.0'
-
+#https://zhuanlan.zhihu.com/p/128452187
 target 'JLTools_Example' do
   pod 'JLTools', :path => '../'
 

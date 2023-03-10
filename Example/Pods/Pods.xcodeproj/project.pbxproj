@@ -7,87 +7,85 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		007F475CDF3491BD753465B6CFAC1516 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CF79C5CD03D142B8FE74D00A83DBEF /* ReplaceMe.swift */; };
-		075CA33EFAFFCB933BC734E31DDC36C3 /* JLTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EACF16CFAFC5CE6C94EBC3F312EBB43D /* JLTools-dummy.m */; };
-		2DEE2CDA80A61F513C7BE6E55EA7BD8F /* JLTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA423BC200699D9F75B6278AEAA0896F /* JLTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4302DA34FC2596D56FACB654AD03D09C /* Pods-JLTools_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5E587C7FD33BAF292F43F0BD20348D1 /* Pods-JLTools_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		64D5C5CE3B7E7CA013DCD60297F0F5E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5273F0430F674E7A521015872F025CD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		A09EB5328A06ED079392B264649FEE7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B33E13CF9AD1B883E83191DADBEC4097 /* JLTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F6D416B8EBBFD39EB8A02632AAB527 /* JLTools-dummy.m */; };
 		B4F2F2FC2754D9DD5C6F1F7C80C404B0 /* Pods-JLTools_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84536ECE9296025AB5455A068057D491 /* Pods-JLTools_Tests-dummy.m */; };
 		BB8A56396E855D17C32C7780C786667B /* Pods-JLTools_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 629C39224F6BDAC96FDF6080049860BF /* Pods-JLTools_Example-dummy.m */; };
-		BBB7F60AFF731AC0F20843BE412A22DF /* String+MKValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794CB5972011E9EEA7EFC5503D585A76 /* String+MKValue.swift */; };
 		BF94ABFB620E603ED539D9DFE634C534 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BFBD81C25BDF0EE3377CDE8874E9E520 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F972F89920F8A2CD77AB39B771E5211 /* ReplaceMe.swift */; };
 		D0DAF38662C2C92E5FE67E4FDCF89B89 /* Pods-JLTools_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1F9AA650FE7D11B427CB2566B01C655 /* Pods-JLTools_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2B3E2378340B6AA94E6D85AB00A8D1E /* JLTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CAA120E0841AE8D85271254FA9300769 /* JLTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		40ABADF350C28B51A7D8706360E1580E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A8E12A4142D05A47DEE0ACDC2BA7D77E;
-			remoteInfo = "Pods-JLTools_Example";
-		};
-		FD62DC323964D27032D600FF2807B98E /* PBXContainerItemProxy */ = {
+		61BB2ABD80BEFCB19A6C4011FC991E3C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 53610CE20B0A6C418115CEDF8DD97F8B;
 			remoteInfo = JLTools;
 		};
+		717D3C5703FB0CAA0E7949813E62ED4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8E12A4142D05A47DEE0ACDC2BA7D77E;
+			remoteInfo = "Pods-JLTools_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		03DB814D6051E55CD548256B8863D668 /* Pods-JLTools_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JLTools_Example.modulemap"; sourceTree = "<group>"; };
-		14783C183592A50B7D4EFCAA704E2D54 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		20CF79C5CD03D142B8FE74D00A83DBEF /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = JLTools/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		1F972F89920F8A2CD77AB39B771E5211 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = JLTools/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		2DACDC9278EB19E6A8DB0514F24F3F52 /* Pods-JLTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		418353366FAECFC8F2255D57E1018FF5 /* JLTools */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JLTools; path = JLTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A17730486703EB02C5CDA64B4C8289A /* JLTools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JLTools-Info.plist"; sourceTree = "<group>"; };
 		53B4E86A007A2F3DEE3092A394C93AA4 /* Pods-JLTools_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JLTools_Tests-Info.plist"; sourceTree = "<group>"; };
 		629C39224F6BDAC96FDF6080049860BF /* Pods-JLTools_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JLTools_Example-dummy.m"; sourceTree = "<group>"; };
+		6581112D430B633747F0CDD0432CA760 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		6AF16435460AB1B2F9DD4A785DBA9510 /* Pods-JLTools_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JLTools_Example"; path = Pods_JLTools_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		729F8C1C74CB60EBDDA6C5226924AE73 /* Pods-JLTools_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JLTools_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		794CB5972011E9EEA7EFC5503D585A76 /* String+MKValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+MKValue.swift"; path = "JLTools/Classes/String+MKValue.swift"; sourceTree = "<group>"; };
+		76C39A7F6B5946B946A4042E4D86886A /* JLTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLTools-prefix.pch"; sourceTree = "<group>"; };
+		76F46AC11FC7B7C0C04A9D264BE42331 /* JLTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JLTools.release.xcconfig; sourceTree = "<group>"; };
+		7DAC6D09ABC733A9CB83AC6424840DDB /* JLTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JLTools.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		81927AA93C897542C65977147236F29B /* Pods-JLTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		81E1BB96463D04FF723C34DEF1099F5B /* Pods-JLTools_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JLTools_Tests.modulemap"; sourceTree = "<group>"; };
-		83358AC14ED7962C2E03AB64CDA8F841 /* JLTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JLTools.debug.xcconfig; sourceTree = "<group>"; };
+		8220F9ECE4CCA381BF3A182DFE5F585F /* JLTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JLTools.modulemap; sourceTree = "<group>"; };
 		84536ECE9296025AB5455A068057D491 /* Pods-JLTools_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JLTools_Tests-dummy.m"; sourceTree = "<group>"; };
+		9131E02AD06F938EBAA06CBCB2C0CF0C /* JLTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JLTools.debug.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A3ECA5EBD8F9F462B1DFDB2E47EAAD49 /* JLTools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JLTools-Info.plist"; sourceTree = "<group>"; };
 		A5640BA6A2043E5585CB2149EED776E6 /* Pods-JLTools_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JLTools_Example-Info.plist"; sourceTree = "<group>"; };
 		A5E587C7FD33BAF292F43F0BD20348D1 /* Pods-JLTools_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JLTools_Tests-umbrella.h"; sourceTree = "<group>"; };
-		AA423BC200699D9F75B6278AEAA0896F /* JLTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLTools-umbrella.h"; sourceTree = "<group>"; };
-		AE68708376D560F7522A5315F96FEB90 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		C77F493B91E40A15272931039BA92F9D /* Pods-JLTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CAA120E0841AE8D85271254FA9300769 /* JLTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLTools-umbrella.h"; sourceTree = "<group>"; };
 		D42543DB18F82F465CFDFAC3D5D407F3 /* Pods-JLTools_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JLTools_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D4F9B6E983151F7E616495FD1C93593C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		DC6EF6577F90DAEBADFE1B6A21AF2BC7 /* Pods-JLTools_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JLTools_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E0EBFA9CB17234BB6F19BD8045A5A816 /* Pods-JLTools_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JLTools_Example-frameworks.sh"; sourceTree = "<group>"; };
 		E1F9AA650FE7D11B427CB2566B01C655 /* Pods-JLTools_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JLTools_Example-umbrella.h"; sourceTree = "<group>"; };
-		E69BAC9669EBDD7FA9D0FBC22C10B01D /* JLTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JLTools.modulemap; sourceTree = "<group>"; };
-		EACF16CFAFC5CE6C94EBC3F312EBB43D /* JLTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JLTools-dummy.m"; sourceTree = "<group>"; };
 		EB6C4D4290261EE82D5BCB4CB806DFB0 /* Pods-JLTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLTools_Example.release.xcconfig"; sourceTree = "<group>"; };
-		EE3F85E576B959E66E1112231D93D82F /* JLTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLTools-prefix.pch"; sourceTree = "<group>"; };
-		EFF3271DD9D7E2237EB65AEA1818EA58 /* JLTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JLTools.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F135E1A07D412E96398980CEF65861A1 /* Pods-JLTools_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JLTools_Tests"; path = Pods_JLTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3F46EFDC4BF58DDD151D38FAAFF2E3D /* Pods-JLTools_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JLTools_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		FEAD1C0248D21466F895148F228590A7 /* JLTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JLTools.release.xcconfig; sourceTree = "<group>"; };
+		F4F6D416B8EBBFD39EB8A02632AAB527 /* JLTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JLTools-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		97EA03F75A1A7603276B7717C92FB06A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5273F0430F674E7A521015872F025CD4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9A571AD2E45168E4719114611CAF2317 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A09EB5328A06ED079392B264649FEE7E /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A964874AB7985F9A5D975EFEA8DF0C9F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				64D5C5CE3B7E7CA013DCD60297F0F5E4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,16 +100,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3F14F14FA7F7C31B0C3DB89B3F4070B2 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				EFF3271DD9D7E2237EB65AEA1818EA58 /* JLTools.podspec */,
-				14783C183592A50B7D4EFCAA704E2D54 /* LICENSE */,
-				AE68708376D560F7522A5315F96FEB90 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		48B77260E8C12732C86C2A6E2BE50B5E /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,19 +134,15 @@
 			path = "Target Support Files/Pods-JLTools_Example";
 			sourceTree = "<group>";
 		};
-		79F66DB3732325E4FB8EF610FBAAB16C /* Support Files */ = {
+		6467DBF7B1F29B354A1D132FEE30823B /* JLTools */ = {
 			isa = PBXGroup;
 			children = (
-				E69BAC9669EBDD7FA9D0FBC22C10B01D /* JLTools.modulemap */,
-				EACF16CFAFC5CE6C94EBC3F312EBB43D /* JLTools-dummy.m */,
-				A3ECA5EBD8F9F462B1DFDB2E47EAAD49 /* JLTools-Info.plist */,
-				EE3F85E576B959E66E1112231D93D82F /* JLTools-prefix.pch */,
-				AA423BC200699D9F75B6278AEAA0896F /* JLTools-umbrella.h */,
-				83358AC14ED7962C2E03AB64CDA8F841 /* JLTools.debug.xcconfig */,
-				FEAD1C0248D21466F895148F228590A7 /* JLTools.release.xcconfig */,
+				1F972F89920F8A2CD77AB39B771E5211 /* ReplaceMe.swift */,
+				B7E4818243438A1721962C7A73C63D85 /* Pod */,
+				A1201097E721FB447E5E7B9A53250D5A /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/JLTools";
+			name = JLTools;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		9ECEA787499504907EE6E26105FD5F47 /* Products */ = {
@@ -171,11 +155,36 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		A1201097E721FB447E5E7B9A53250D5A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8220F9ECE4CCA381BF3A182DFE5F585F /* JLTools.modulemap */,
+				F4F6D416B8EBBFD39EB8A02632AAB527 /* JLTools-dummy.m */,
+				4A17730486703EB02C5CDA64B4C8289A /* JLTools-Info.plist */,
+				76C39A7F6B5946B946A4042E4D86886A /* JLTools-prefix.pch */,
+				CAA120E0841AE8D85271254FA9300769 /* JLTools-umbrella.h */,
+				9131E02AD06F938EBAA06CBCB2C0CF0C /* JLTools.debug.xcconfig */,
+				76F46AC11FC7B7C0C04A9D264BE42331 /* JLTools.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JLTools";
+			sourceTree = "<group>";
+		};
+		B7E4818243438A1721962C7A73C63D85 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7DAC6D09ABC733A9CB83AC6424840DDB /* JLTools.podspec */,
+				D4F9B6E983151F7E616495FD1C93593C /* LICENSE */,
+				6581112D430B633747F0CDD0432CA760 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				F2250066AC427C1C89E4734DED9FB171 /* Development Pods */,
+				DBAF9C02B250D6EA396BFE2A3BD993A5 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				9ECEA787499504907EE6E26105FD5F47 /* Products */,
 				48B77260E8C12732C86C2A6E2BE50B5E /* Targets Support Files */,
@@ -190,16 +199,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D999788A9BF78BDBDF2E21124B874536 /* JLTools */ = {
+		DBAF9C02B250D6EA396BFE2A3BD993A5 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				20CF79C5CD03D142B8FE74D00A83DBEF /* ReplaceMe.swift */,
-				794CB5972011E9EEA7EFC5503D585A76 /* String+MKValue.swift */,
-				3F14F14FA7F7C31B0C3DB89B3F4070B2 /* Pod */,
-				79F66DB3732325E4FB8EF610FBAAB16C /* Support Files */,
+				6467DBF7B1F29B354A1D132FEE30823B /* JLTools */,
 			);
-			name = JLTools;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		DD3BDAF6129D9CB4B9F3A5964BC062B1 /* Pods-JLTools_Tests */ = {
@@ -216,14 +221,6 @@
 			);
 			name = "Pods-JLTools_Tests";
 			path = "Target Support Files/Pods-JLTools_Tests";
-			sourceTree = "<group>";
-		};
-		F2250066AC427C1C89E4734DED9FB171 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D999788A9BF78BDBDF2E21124B874536 /* JLTools */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,11 +242,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF98A1B5D8DBE322B01A09632E460591 /* Headers */ = {
+		EE8828154AD7499F9725CDC7F778E0D5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DEE2CDA80A61F513C7BE6E55EA7BD8F /* JLTools-umbrella.h in Headers */,
+				F2B3E2378340B6AA94E6D85AB00A8D1E /* JLTools-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,12 +255,12 @@
 /* Begin PBXNativeTarget section */
 		53610CE20B0A6C418115CEDF8DD97F8B /* JLTools */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 98411321359BB47D56357591D990D5BF /* Build configuration list for PBXNativeTarget "JLTools" */;
+			buildConfigurationList = 98FE1AF5A7AE61EC8E6C662F725BECEB /* Build configuration list for PBXNativeTarget "JLTools" */;
 			buildPhases = (
-				FF98A1B5D8DBE322B01A09632E460591 /* Headers */,
-				BB8D18C044670C3A5FF2A7B4B31F8B01 /* Sources */,
-				A964874AB7985F9A5D975EFEA8DF0C9F /* Frameworks */,
-				A66F4CA7973AD17D59490BF425ACC0B2 /* Resources */,
+				EE8828154AD7499F9725CDC7F778E0D5 /* Headers */,
+				8D287CF85638DF7A151CC89AD68EA02C /* Sources */,
+				97EA03F75A1A7603276B7717C92FB06A /* Frameworks */,
+				D6AF6A56FD0CA9525C524591EB48AAA9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -286,7 +283,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				6DA2B4BB05F04574FF242455D2F0D93D /* PBXTargetDependency */,
+				FF907EA434EAA2D132F4CA1E247DCF37 /* PBXTargetDependency */,
 			);
 			name = "Pods-JLTools_Tests";
 			productName = Pods_JLTools_Tests;
@@ -305,7 +302,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				AAB4527C212C6B36CC090A61AF5599DE /* PBXTargetDependency */,
+				A867F20CC89B6320377648AEEFF6CEAB /* PBXTargetDependency */,
 			);
 			name = "Pods-JLTools_Example";
 			productName = Pods_JLTools_Example;
@@ -342,14 +339,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A66F4CA7973AD17D59490BF425ACC0B2 /* Resources */ = {
+		BDBEBEE8A441936CE62CB80FF6A24C4C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BDBEBEE8A441936CE62CB80FF6A24C4C /* Resources */ = {
+		D6AF6A56FD0CA9525C524591EB48AAA9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -374,13 +371,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BB8D18C044670C3A5FF2A7B4B31F8B01 /* Sources */ = {
+		8D287CF85638DF7A151CC89AD68EA02C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				075CA33EFAFFCB933BC734E31DDC36C3 /* JLTools-dummy.m in Sources */,
-				007F475CDF3491BD753465B6CFAC1516 /* ReplaceMe.swift in Sources */,
-				BBB7F60AFF731AC0F20843BE412A22DF /* String+MKValue.swift in Sources */,
+				B33E13CF9AD1B883E83191DADBEC4097 /* JLTools-dummy.m in Sources */,
+				BFBD81C25BDF0EE3377CDE8874E9E520 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,24 +391,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6DA2B4BB05F04574FF242455D2F0D93D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-JLTools_Example";
-			target = A8E12A4142D05A47DEE0ACDC2BA7D77E /* Pods-JLTools_Example */;
-			targetProxy = 40ABADF350C28B51A7D8706360E1580E /* PBXContainerItemProxy */;
-		};
-		AAB4527C212C6B36CC090A61AF5599DE /* PBXTargetDependency */ = {
+		A867F20CC89B6320377648AEEFF6CEAB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JLTools;
 			target = 53610CE20B0A6C418115CEDF8DD97F8B /* JLTools */;
-			targetProxy = FD62DC323964D27032D600FF2807B98E /* PBXContainerItemProxy */;
+			targetProxy = 61BB2ABD80BEFCB19A6C4011FC991E3C /* PBXContainerItemProxy */;
+		};
+		FF907EA434EAA2D132F4CA1E247DCF37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JLTools_Example";
+			target = A8E12A4142D05A47DEE0ACDC2BA7D77E /* Pods-JLTools_Example */;
+			targetProxy = 717D3C5703FB0CAA0E7949813E62ED4D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3DA308C99FEA7D163E8B8A5000DB7E2A /* Debug */ = {
+		3292C0FFF84EEA29D7AED26D565B2E9B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83358AC14ED7962C2E03AB64CDA8F841 /* JLTools.debug.xcconfig */;
+			baseConfigurationReference = 9131E02AD06F938EBAA06CBCB2C0CF0C /* JLTools.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -570,9 +566,9 @@
 			};
 			name = Release;
 		};
-		B1363D5F0E2EE0CEF53426CD6E8469E2 /* Release */ = {
+		8D2FBEF553C5B51BA398548E785FCDB8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FEAD1C0248D21466F895148F228590A7 /* JLTools.release.xcconfig */;
+			baseConfigurationReference = 76F46AC11FC7B7C0C04A9D264BE42331 /* JLTools.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -765,11 +761,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		98411321359BB47D56357591D990D5BF /* Build configuration list for PBXNativeTarget "JLTools" */ = {
+		98FE1AF5A7AE61EC8E6C662F725BECEB /* Build configuration list for PBXNativeTarget "JLTools" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3DA308C99FEA7D163E8B8A5000DB7E2A /* Debug */,
-				B1363D5F0E2EE0CEF53426CD6E8469E2 /* Release */,
+				3292C0FFF84EEA29D7AED26D565B2E9B /* Debug */,
+				8D2FBEF553C5B51BA398548E785FCDB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
