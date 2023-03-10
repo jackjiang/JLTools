@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'JLTools_Example' do
+  pod 'JLTools', :path => '../'
+
+  target 'JLTools_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
